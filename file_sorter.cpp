@@ -1,5 +1,5 @@
 #include <iostream>
-#include "sort.h"
+#include "lib/sort.h"
 
 int main()
 {
