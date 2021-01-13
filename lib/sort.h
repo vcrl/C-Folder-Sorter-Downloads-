@@ -16,8 +16,8 @@ class Sort
 		std::array<std::string, 5> videoExtensions = { ".mp4",  ".avi",  ".mkv", ".wmw", ".webm" };
 		std::array<std::string, 5> audioExtensions = { ".mp3", ".wav", ".ogg" };
 		std::array<std::string, 5> docExtensions{ ".txt", ".docx", ".pdf", ".psd", ".doc" };
-		std::array<std::string, 5> compressedExtensions{ ".zip", ".rar", ".torrent" };
-		std::array<std::string, 5> otherExtensions{ ".ini", ".log", ".sql" };
+		std::array<std::string, 5> compressedExtensions{ ".zip", ".rar", ".torrent", ".tar.gz" };
+		std::array<std::string, 5> otherExtensions{ ".ini", ".log", ".sql", ".json" };
 
 };
 
