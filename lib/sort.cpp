@@ -9,7 +9,7 @@
 
 void Sort::makeDirs()
 {
-    std::string dirNames[] = { "Executables", "Images", "Videos", "Audio", "Documents", "Compressed (Zip, Rar)" };
+    std::string dirNames[] = { "Executables", "Images", "Videos", "Audio", "Documents", "Compressed" };
     for (std::string dir : dirNames)
     {
         if (_mkdir(dir.c_str()))
@@ -46,7 +46,7 @@ void Sort::sortFiles()
         chooseDestination(pathToString, videoExtensions, "Videos/");
         chooseDestination(pathToString, audioExtensions, "Audio/");
         chooseDestination(pathToString, docExtensions, "Documents/");
-        chooseDestination(pathToString, compressedExtensions, "Compressed (Zip, Rar)/");
+        chooseDestination(pathToString, compressedExtensions, "Compressed/");
         
     }
 }
