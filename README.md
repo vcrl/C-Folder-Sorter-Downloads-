@@ -12,4 +12,6 @@ That's why I've made this simple yet useful tool to get rid of that problem.
 4. Refresh your folder using the F5 key
 5. Enjoy !
 
+/!\ When sorting your files, "file_sorter.exe" will sort itself into your Executables folder.
+
 # Thank you for using this tool.
