@@ -1,3 +1,6 @@
+#ifndef SORT_H
+#define SORT_H
+
 #include <string>
 #include <iostream>
 #include <fstream>
@@ -11,10 +14,8 @@ class Sort
 		std::string getFileName(std::string path);
 		void sortFiles();
 		void chooseDestination(std::string path, std::array<std::string, 5> type, std::string folder);
-		std::time_t getTime();
 
 	private:
-		std::string logName = "logs.log";
 		std::array<std::string, 5> exeExtensions = { ".exe", ".msi", ".iso", ".jar" };
 		std::array<std::string, 5> imgExtensions = { ".png", ".jpg", ".jpeg",  ".gif", ".JPEG" };
 		std::array<std::string, 5> videoExtensions = { ".mp4",  ".avi",  ".mkv", ".wmw", ".webm" };
@@ -25,3 +26,4 @@ class Sort
 
 };
 
+#endif // SORT_H
