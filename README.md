@@ -7,10 +7,10 @@ That's why I've made this simple yet useful tool to get rid of that problem.
 # How to use it
 
 1. Download or clone that repo on your computer
-2. Move the file "file_sorter.exe" into your Downloads directory
+2. Move the file "file_sorter.exe" and the folder "dll" into your Downloads directory
 3. Double click on "file_sorter.exe"
 4. Refresh your folder using the F5 key
-5. Enjoy !
+5. Enjoy and feel free to remove the "dll" folder
 
 /!\ When sorting your files, "file_sorter.exe" will sort itself into your Executables folder.
 
